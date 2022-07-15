@@ -1,0 +1,128 @@
+body {
+  background-image: url("https://www.bluwonder.com/wp-content/uploads/2020/04/Porsche-911-Carrera-4S-2.jpg");
+  background-repeat: no-repeat; 
+  background-size: contain;
+  background-color: black;
+  font-family: Verdana
+  font-family: sans-serif
+background-image: 48vh
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+p {
+  text-align: left; 
+}
+h2 {
+  text-align: left;
+}
+
+ul {
+  font-family: "Franklin Gothic Medium";
+  font-size: 15px;
+}
+
+ul > li {
+  list-style: none;
+  background-color: rgb(78, 78, 78);
+}
+
+#miobjectoEspecifico {
+  color: rgb(224, 136, 20); 
+  font-size: 10px;
+}
+
+.liEspecial {
+  color: white;
+  font-style: italic;
+  
+}
+ 
+
+
+
+
+
+
+
+.bloque4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3em;
+  border-radius: 25px;
+  background: #fcb69f;
+  padding-top: 1.25em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  padding-bottom: 1.25em;
+  width: 50%;
+  color: #ffecd2;
+  text-shadow: 2px 2px 2px #fcb69f;
+  text-shadow: 2px 2px 2px #d46a6a;
+  color: #ffecd2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul,
+ol {
+  list-style-type: none/>
+   
+
+  .img {
+    height: calc(300px + 3em);
+    width: 260px;
+    margin: 1em auto;
+    border: 1px solid #d46a6a;
+    position: relative;
+  }
+  
+  .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s;
+  }
+  
+  .galeria input[type="radio"] {
+    position: relative;
+    bottom: calc(-300px - 1.5em);
+    left: 0,05em;
+  }
+
+
+
+
+
+.galeria input[type="radio"]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria input[type="radio"]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria input[type="radio"]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+
+.galeria input[type="radio"]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+  opacity: 1;
+}
+
+.galeria input[type="radio"]:nth-of-type(5):checked ~ img:nth-of-type(4) {
+  opacity: 1;
+}
+
